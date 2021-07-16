@@ -1,1 +1,8 @@
 font-family
+
+배경 컬러 ed5353
+글씨 컬러 fff or ed5353
+
+
+main h1 font @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+font-family: 'Zen Tokyo Zoo', cursive;
