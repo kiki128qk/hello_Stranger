@@ -6,3 +6,6 @@ font-family
 
 main h1 font @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 font-family: 'Zen Tokyo Zoo', cursive;
+
+
+1.text_box 애니메이션 효과 넣기
