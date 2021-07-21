@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 * { margin: 0;padding: 0;  box-sizing: border-box;}
-body {font-size: 15px;font-family: "Noto Sans KR", sans-serif;color: #111;}
+body {font-size: 15px;font-family: "Noto Sans KR", sans-serif;color: #111; background-color: wheat;}
 .clear:after {clear: both;  display: block;  content: "";}
 .center {width: 100%;  height: auto;  max-width: 1000px;  margin: auto;}
 h1,h2,h3 {font-family: 'Caudex', serif;}
@@ -14,5 +14,3 @@ img {display: block;}
 button,input,textarea {border: 0;outline: 0;font-family: "Noto Sans KR", sans-serif;}
 input {-webkit-appearance: auto;border-radius: 0;}
 
-/* Contents Wrap Style */
-.wrap {width: 100%;height: auto;display: flex;justify-content: space-between;flex-direction: column;}

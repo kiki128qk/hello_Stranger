@@ -8,4 +8,9 @@ main h1 font @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo
 font-family: 'Zen Tokyo Zoo', cursive;
 
 
-1.text_box 애니메이션 효과 넣기
+text_box 애니메이션 효과 넣기
+text_box 중앙정렬 수정
+
+스크롤 화살표 애니메이션
+img_box 버튼 and 스크롤 슬라이드 효과
+

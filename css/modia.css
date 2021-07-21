@@ -1,0 +1,16 @@
+@media screen and (max-width: 950px){
+  .con_firts .const_box .text_box h1,
+  .con_firts .const_box .text_box h2{font-size: 100px;}
+
+}
+@media screen and (max-width: 950px){
+  nav .navcont{display: block;}
+  nav .navcont .logo{display: block; margin: 0 auto;}
+
+  nav .navcont ul{display: block; margin: 0 auto; float: none;}
+
+
+  .con_firts .const_box .text_box h1,
+  .con_firts .const_box .text_box h2{font-size: 80px;}
+  
+}

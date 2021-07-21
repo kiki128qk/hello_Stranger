@@ -1,24 +1,32 @@
 
 header{width:100%;height: auto;}
 /* nav css */
-nav{width: 100%; height: 80px; position: fixed; border-bottom: 1px solid wheat;}
+nav{width: 100vw; height: 80px; position: fixed; border-bottom: 1px solid wheat;}
 nav .navcont{margin: 0 50px; display: flex; justify-content: space-between;}
-nav .logo{width: 80px;height: 80px; display:flex; position: relative;} 
-nav .logo svg{width: 100%;height: 100%; padding: 10px; position: absolute;}
-nav .logo svg:last-child{width: 100%; height: 100%;left: 25px;bottom: 10px; display: none;}
-nav .logo:hover svg:last-child{display: inline-block;}
+nav .navcont .logo{width: 80px;height: 80px; display: flex; position: relative;} 
+nav .navcont .logo svg{width: 100%;height: 100%; padding: 10px; position: absolute;}
+nav .navcont .logo svg:last-child{width: 100%; height: 100%;left: 25px;bottom: 10px; display: none;}
+nav .navcont .logo:hover svg:last-child{display: inline-block;}
 
-nav ul{float:right;display: flex; padding: 20px;}
-nav ul li{width: 100px; height: 40px; text-align: center; line-height: 2;}
-nav ul li a{ font-size: 20px; color:wheat;}
-nav ul li a:hover{font-weight: 600;}
+nav .navcont ul{float:right;display: flex; padding: 20px;}
+nav .navcont ul li{width: 100px; height: 40px; text-align: center; line-height: 2;}
+nav .navcont ul li a{font-size: 1.5em; color:wheat;}
+nav .navcont ul li a:hover{font-weight: 600;}
 
+nav .modia_bar{font-size: 2em; text-align: center; line-height: 2.5;display: none;}
 /* con_firts */
 
-.con_firts{width: 100%; height: auto; text-align: center; position: relative;z-index: -1;}
+.con_firts{width: 100vw; height: auto; text-align: center; position: relative;z-index: -1; background-color: teal;}
 .con_firts .color_boxs{width: 100%;}
-.con_firts .color_boxs .color_t{width: 100%; height: 500px; background-color: #ed5353;}
-.con_firts .color_boxs .color_b{width: 100%;height:500px;background-color:wheat ;}
+.con_firts .color_boxs .color_t{width: 100%; height: 50vh; background-color: #ed5353;}
+.con_firts .color_boxs .color_b{width: 100%;height:50vh;background-color:wheat ;}
 
-.con_firts .text_box{position: absolute;left: 25%; top: 30%; }
-.con_firts .text_box h1,.con_firts .text_box h2{font-size: 150px; line-height: 1; font-family: 'Monoton'; color:#333;}
+.con_firts .const_box{width: 100%; height:auto;}
+.con_firts .const_box .text_box{position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+.con_firts .const_box .text_box h1,.con_firts .const_box .text_box h2{font-size: 150px; line-height: 1; font-family: 'Monoton'; color:#333;}
+
+.scroll{text-align: center; font-size: 30px;}
+
+/* con_second */
+
+.con_second {width: 100vw; height: 80vh; text-align: center; }
