@@ -1,7 +1,7 @@
 
 header{width:100%;height: auto;}
 /* nav css */
-nav{width: 100vw; height: 80px; position: fixed; border-bottom: 1px solid wheat;}
+nav{width: 100vw; height: 80px; position: fixed; border-bottom: 1px solid #f0f0f0;}
 nav .navcont{margin: 0 50px; display: flex; justify-content: space-between;}
 nav .navcont .logo{width: 80px;height: 80px; display: flex; position: relative;} 
 nav .navcont .logo svg{width: 100%;height: 100%; padding: 10px; position: absolute;}
@@ -9,24 +9,32 @@ nav .navcont .logo svg:last-child{width: 100%; height: 100%;left: 25px;bottom: 1
 nav .navcont .logo:hover svg:last-child{display: inline-block;}
 
 nav .navcont ul{float:right;display: flex; padding: 20px;}
-nav .navcont ul li{width: 100px; height: 40px; text-align: center; line-height: 2;}
-nav .navcont ul li a{font-size: 1.5em; color:wheat;}
+nav .navcont ul li{width: 100px; height: 40px; margin: 0 auto; text-align: center; line-height: 2;}
+nav .navcont ul li a{font-size: 1.5em; color:#f0f0f0;}
 nav .navcont ul li a:hover{font-weight: 600;}
 
-nav .modia_bar{font-size: 2em; text-align: center; line-height: 2.5;display: none;}
+nav .navcont .menu{}
+nav .navcont .hamburger_button{width: 35px; height: 34px; position: relative; transition: .3s ease-in-out; margin:20px; _display: none;}
+nav .navcont .hamburger_button span{width: 100%; height: 5px; position: absolute; border-radius: 4px;background: #f0f0f0;}
+nav .navcont .hamburger_button span:nth-last-child(1){top: 0px;}
+nav .navcont .hamburger_button span:nth-last-child(2),nav .navcont .hamburger_button span:nth-last-child(3){top: 13px;}
+nav .navcont .hamburger_button span:nth-last-child(4){top: 26px;}
+
+
 /* con_firts */
-
-.con_firts{width: 100vw; height: auto; text-align: center; position: relative;z-index: -1; background-color: teal;}
-.con_firts .color_boxs{width: 100%;}
-.con_firts .color_boxs .color_t{width: 100%; height: 50vh; background-color: #ed5353;}
-.con_firts .color_boxs .color_b{width: 100%;height:50vh;background-color:wheat ;}
-
-.con_firts .const_box{width: 100%; height:auto;}
+.con_firts{width: 100vw; height: 100vh; text-align: center; position: relative;z-index: -1; margin-bottom: 10vh;}
+.con_firts .color_boxs{width: 100vw; height: 100vh;}
+.con_firts .color_boxs .color_t{width: 100vw; height: 50vh; background-color: #ed5353; animation: down 1.5s;}
+@keyframes down {0%{width: 100vw; height: 100vh; } }
+.con_firts .const_box{width: 100vw; height:auto;}
 .con_firts .const_box .text_box{position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
-.con_firts .const_box .text_box h1,.con_firts .const_box .text_box h2{font-size: 150px; line-height: 1; font-family: 'Monoton'; color:#333;}
+.con_firts .const_box .text_box h1,.con_firts .const_box .text_box h2{font-size: 15vmin; line-height: 1; font-family: 'Monoton'; color:#333;}
 
-.scroll{text-align: center; font-size: 30px;}
+.con_firts .const_box .scroll{width: 100%; text-align: center; font-size: 30px; margin-top: -10vh;}
+.con_firts .const_box .scroll em{font-size: 20px;font-style: normal;}
+.scroll i{width: 100%;}
 
 /* con_second */
-
 .con_second {width: 100vw; height: 80vh; text-align: center; }
+
+

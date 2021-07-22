@@ -1,16 +1,18 @@
 font-family
 
 배경 컬러 ed5353
-글씨 컬러 fff or ed5353
+글씨 컬러 333 or wheat
 
+Monoton 추가 폰트 스타일
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Sans+KR:wght@100;400;500&family=Open+Sans:wght@300;400;700;800&display=swap');
 
-main h1 font @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
-font-family: 'Zen Tokyo Zoo', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Open Sans', sans-serif;
 
 
 text_box 애니메이션 효과 넣기
-text_box 중앙정렬 수정
 
 스크롤 화살표 애니메이션
-img_box 버튼 and 스크롤 슬라이드 효과
+
 

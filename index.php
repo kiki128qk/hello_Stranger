@@ -25,7 +25,7 @@
               <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
             width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"preserveAspectRatio="xMidYMid meet">
               <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-              fill="wheat" stroke="none">
+              fill="#f0f0f0" stroke="none">
               <path d="M2981 5106 c-28 -15 -50 -52 -51 -82 0 -12 53 -196 119 -408 l118
               -388 -23 -75 c-37 -114 -49 -253 -34 -370 33 -255 24 -337 -54 -498 -150 -310
               -493 -579 -990 -775 -231 -90 -389 -193 -539 -349 -256 -267 -382 -590 -394
@@ -83,29 +83,38 @@
             <li><a href="#">Pofile</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-          <div class="modia_bar">
-            <i class="fas fa-bars"></i>
-          </div>
+          <a href="#" class="hamburger_button" >
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+
+         
         </div>
       </nav>
     </header>
     <section class="con_firts">
       <div class="color_boxs">
         <div class="color_t"></div>
-        <div class="color_b"></div>
+        <!-- <div class="color_b"></div> -->
       </div>
       <div class="const_box">
-        <div class="text_box">
+        <div class="text_box center">
           <h1>hello</h1>
           <h2>stranger</h2>
         </div>
         <div class="scroll">
+          <em>scroll bowon</em>
           <i class="fas fa-angle-down"></i>
         </div>
       </div>
     </section>
-    <section class="con_second">
-      <h3>WORK</h3>
+    <section class="con_second center">
+      <div class="title_box">
+        <h3>MY WORK</h3>
+      </div>  
+   
 
     </section>
 
