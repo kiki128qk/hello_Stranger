@@ -5,10 +5,11 @@
 
 }
 @media screen and (max-width: 768px){
-  nav .navcont{display: block;margin:0 auto;border-bottom: 1px solid #f0f0f0;}
-  nav .navcont .logo{width: 100%; margin: 0 auto;}
-  nav .navcont ul{display: block; margin: 0 auto; float: none;}
+  nav .navcont .logo{width: 20%; margin: 0 auto;}
+  nav .navcont ul{display: none; margin: 0 auto; float: none;}
   nav .navcont ul li a:hover{color:#333 ;}
+  nav .hamburger_button{display:block;position: absolute;top:0; right:15px;}
+  nav .navcont.active{border-bottom: 2px solid #f0f0f0; margin:0 auto;}
 
 }
 @media screen and (max-width: 480px){

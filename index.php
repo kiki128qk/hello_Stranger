@@ -15,11 +15,18 @@
   <link rel="stylesheet" href="/Hello_Stranger/css/style.css">
   <link rel="stylesheet" href="/Hello_Stranger/css/modia.css">
   <link rel="shortcut icon" href="/Hello_Stranger/data/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/Hello_Stranger/js/custom.js">
 
 </head>
 <body>
     <header>
-      <nav>
+      <nav class="nav">
+        <a href="#" class="hamburger_button" >
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
         <div class="navcont">
           <div class="logo">
               <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
@@ -83,14 +90,6 @@
             <li><a href="#">Pofile</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
-          <a href="#" class="hamburger_button" >
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </a>
-
-         
         </div>
       </nav>
     </header>
@@ -110,17 +109,35 @@
         </div>
       </div>
     </section>
-    <section class="con_second center">
+    <section class="con_second">
       <div class="title_box">
         <h3>MY WORK</h3>
-      </div>  
-   
+      </div>
+      <div class="work_box">
+        <span><i class="fas fa-angle-right"></i></span>
+        <div class="work_con">
+          <img src="http://placehold.it/1000x700/19ada1/fff?text=1" alt="">
+          <div class="work_txt">
+            <h4>explanation</h4>
+            <ul>
+              <li>php</li>
+              <li>css</li>
+              <li>jquery</li>
+            </ul>
+            <em>잔디가 오면 계절이 자랑처럼 까닭입니다. 둘 별에도 풀이 별이 하나의 토끼, 봄이 버리었습니다. 위에 부끄러운 이름과 내일 별들을 불러 듯합니다. 너무나 내일 이 듯합니다.
 
-    </section>
+            헤일 별 같이 흙으로 지나고 사람들의 별에도 한 하늘에는 듯합니다. 가난한 멀리 별 새워 잠, 피어나듯이 토끼, 봅니다.</em>
+          </div>
+        </div>
+        <span><i class="fas fa-angle-left"></i></span>
+      </div>
+     </section>
 
 
 </body>
   <!-- jquery link -->
   <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="/Hello_Stranger/js/custom.js" ></script>
   <script src="/Hello_Stranger/js/jquery.drawsvg.js" ></script>
+  
 </html>
