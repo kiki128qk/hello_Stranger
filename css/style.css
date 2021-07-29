@@ -44,13 +44,12 @@ nav .navcont.active ul{display:block;}
 .con_second .title_box{width: 80%;margin: 10px auto; }
 .con_second .title_box h3{font-size: 25px;}
 
-.con_second .work_box{width: 80vw;height: 80%;margin: 0 auto; background-color: #f3e5e5; position: relative; overflow: hidden;}
+.con_second .work_box{width: 80vw;height: 80%;margin: 0 auto; background-color: #f3e5e5; overflow: hidden;}
+.con_second .work_box .slider_container{position: absolute; width: 100%;}
+.con_second .work_box .slider_container .slide{position: absolute; width: 100%;}
 .con_second .work_box span{position: absolute; top: 50%; font-size: 30px;}
 .con_second .work_box span:first-child{right: 30px;}
 .con_second .work_box span:last-child{left: 30px;}
-.con_second .work_box .work_con {width: 80%;height: auto;padding: 5px; position:absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
-.con_second .work_box .work_con img{margin: 2%;}
-.con_second .work_box .work_con .work_txt{width: 40%; margin: 5% 3%; position: absolute; bottom: 30px; right: 0;}
-.con_second .work_box .work_con .work_txt h4{font-size: 20px;}
-.con_second .work_box .work_con .work_txt ul{width: 100%; display: flex; list-style: initial;}
-.con_second .work_box .work_con .work_txt ul li{margin:10px;}
+
+
+.slide{position: absolute; width: 100%;}

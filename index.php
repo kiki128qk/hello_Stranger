@@ -114,25 +114,34 @@
         <h3>MY WORK</h3>
       </div>
       <div class="work_box">
-        <span><i class="fas fa-angle-right"></i></span>
-        <div class="work_con">
-          <img src="http://placehold.it/1000x700/19ada1/fff?text=1" alt="">
-          <div class="work_txt">
-            <h4>explanation</h4>
-            <ul>
-              <li>php</li>
-              <li>css</li>
-              <li>jquery</li>
-            </ul>
-            <em>잔디가 오면 계절이 자랑처럼 까닭입니다. 둘 별에도 풀이 별이 하나의 토끼, 봄이 버리었습니다. 위에 부끄러운 이름과 내일 별들을 불러 듯합니다. 너무나 내일 이 듯합니다.
-
-            헤일 별 같이 흙으로 지나고 사람들의 별에도 한 하늘에는 듯합니다. 가난한 멀리 별 새워 잠, 피어나듯이 토끼, 봅니다.</em>
-          </div>
+        <div class="container">
+          <ul class="slider_container">
+            <li class="slide">
+              <div class="work_con">
+                <img src="http://placehold.it/1000x700/19ada1/fff?text=1" alt="">
+              </div>
+            </li>
+            <li class="slide">
+              <div class="work_con">
+                <img src="http://placehold.it/1000x700/19ada1/fff?text=2" alt="">
+              </div>
+            </li>
+            <li class="slide">
+              <div class="work_con">
+                <img src="http://placehold.it/1000x700/19ada1/fff?text=3" alt="">
+              </div>
+            </li>
+            
+          </ul>
         </div>
-        <span><i class="fas fa-angle-left"></i></span>
+        <p class="controls">
+          <span class="prev"><i class="fas fa-angle-right"></i></span>
+          <span class="next"><i class="fas fa-angle-left"></i></span>
+        </p>
       </div>
      </section>
-
+     
+     
 
 </body>
   <!-- jquery link -->
