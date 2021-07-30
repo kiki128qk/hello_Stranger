@@ -115,7 +115,7 @@
       </div>
       <div class="work_box">
         <div class="container">
-          <ul class="slider_container">
+          <ul class="slider_container slider">
             <li class="slide">
               <div class="work_con">
                 <img src="http://placehold.it/1000x700/19ada1/fff?text=1" alt="">
@@ -131,15 +131,14 @@
                 <img src="http://placehold.it/1000x700/19ada1/fff?text=3" alt="">
               </div>
             </li>
-            
-          </ul>
+          </ul> 
         </div>
         <p class="controls">
-          <span class="prev"><i class="fas fa-angle-right"></i></span>
-          <span class="next"><i class="fas fa-angle-left"></i></span>
+          <span class="prev"><i class="fas fa-angle-left"></i></span>
+          <span class="next"><i class="fas fa-angle-right"></i></span>
         </p>
       </div>
-     </section>
+    </section>
      
      
 
