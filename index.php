@@ -131,6 +131,11 @@
                 <img src="http://placehold.it/1000x700/19ada1/fff?text=3" alt="">
               </div>
             </li>
+            <li class="slide">
+              <div class="work_con">
+                <img src="http://placehold.it/1000x700/19ada1/fff?text=4" alt="">
+              </div>
+            </li>
           </ul> 
         </div>
         <p class="controls">
